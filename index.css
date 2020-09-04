@@ -1,0 +1,183 @@
+*{
+    /* padding: 0px;
+    margin: 0px; */
+}
+p{
+    font-family: calibri;
+    font-weight: 500;
+}
+
+.mb{margin-bottom: 25px;}
+
+body{
+    width: 100%;
+    background: url("image/flower.png") left top no-repeat, 
+                url("image/coffee.png") left center no-repeat,
+                url("image/pencil.png") right center no-repeat, #D9CAC5;
+    background-size: 200px;
+    background-attachment: inherit;
+}
+.container{
+    background-color: #FBFBFB;
+    width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding-left: 30px;
+    font-family: ;
+    font-size: 19px;
+}
+
+/* Left side style */
+.left-side{
+    background-color: #DEE5EB;
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 25px 25px 100px 25px;
+    padding-top: 30px;
+    overflow: hidden;
+    display: block;
+}
+
+.left-side img{
+    height: 140px;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid olive;
+}
+
+.left-side h2{
+    font-family: calibri;
+    text-transform: uppercase;
+    padding: 4px;
+    background-color: #52555C;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.left-side .contact p{
+    text-align: left;
+    font-family: sans-serif;
+    color: #686C6F;
+    margin-bottom: 15px;
+}
+
+
+.left-side .contact p i{
+    margin-right: 8px;
+    font-weight: bolder;
+    color: #52555C;
+}
+
+.education{
+    margin-top: 55px;
+}
+.education .title{
+    margin: 5px 0px 20px 0px;
+}
+.education .title strong, p{
+    margin: 0px;
+    padding: 0px;
+    color: #686C6F;
+}
+
+
+.skills{
+    margin-top: 55px;
+}
+.skills strong{
+    letter-spacing: 2px;
+    color: #686C6F;
+}
+.skills ul{
+
+}
+
+.skills ul li{
+    text-align: left;
+    margin: 5px 0px 20px 40px;
+    color: #686C6F;
+    font-family: calibri;
+}
+
+/* End Left side style */
+/* ---------------------------------------------- */
+
+
+/* Right Side style */
+.right-side{
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+    padding: 30px 38px 30px 38px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.right-side h2{
+    text-align: center;
+}
+.right-side strong{
+    color: #52555C;
+    text-transform: uppercase;
+}
+.right-side p, strong, li{
+    font-family: calibri;
+    color: #52555C;
+    text-align: justify;
+}
+
+.right-side .pro-name{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.right-side .pro-name h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #474747;
+    border: 2px solid #88888A;
+}
+.right-side .pro-name p{
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #474747;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.right-side .profile h2, .profession-skill h2{
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #DEE5EB;
+    color: #52555C;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+.right-side .profile{
+    margin-bottom: 50px;
+}
+.right-side .profile p{
+    color: #686C6F;
+    text-align: justify;
+    font-family: calibri;
+}
+
+.profession-skill .position{
+    margin-bottom: 30px;
+}
+
+.profession-skill .position ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 55px;
+}
+
+/* End right side style */
